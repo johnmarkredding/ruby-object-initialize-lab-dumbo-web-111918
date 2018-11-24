@@ -1,6 +1,6 @@
-class Person
-  attr_accessor :name
-  def initialize(name)
+class Dog
+  attr_accessor :name, :breed
+  def initialize(name, breed)
     @name = name
   end
 end
